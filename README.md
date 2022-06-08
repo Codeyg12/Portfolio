@@ -1,17 +1,17 @@
 # PersonalPortfolio
-## The assignment is focusing on starting a professional portfolio for potential employeers to review your works and skills as a coder. This is my first solo project where everything was written by me. I spent some time looking through other peoples portfolios for rough ideas but nothing was copied. There is still a ton of tweaks and changes to come. 
+## The assignment is focusing on starting a professional portfolio for potential employers to review your works and skills as a coder. This is my first solo project where everything was written by me. I spent some time looking through other people's portfolios for rough ideas but nothing was copied. There is still a ton of tweaks and changes to come. 
 
 ## HTML
 
-I began by starting with the basic groundwork, all the standard tags ie: html, head, body. After drawing up my wireframe I began placing content where I saw fit. Deciding between a horitzonatal vs verticxal navbar is somethiong I'm still now convincewd on but I'm pleased with the start
+I began by starting with the basic groundwork, all the standard tags ie: html, head, body. After drawing up my wireframe I began placing content where I saw fit. Deciding between a horizontal vs vertical navbar is something I'm still now convinced on but I'm pleased with the start
 
 ## CSS
 
-This is where the majority of changes camew into play. I spent hours changing up the color schemes or figuring out how I wanted my ' displays'. In the end I went with a VERY basic blue layout that will change in the future.
+This is where the majority of changes came into play. I spent hours changing up the color schemes or figuring out how I wanted my ' displays'. In the end I went with a VERY basic blue layout that will change in the future.
 
 ### Overall
 
-This project is far from done, it is a very rough draft. I will continue to come back and make changes as time goes on. The biggest being adding more than the two projects I have in. While this doesn't reach my standards I know in the future it will. I also plan to add more sections such as a link to my resume or a list of various skills/ certificates. While the styling isn't what I want it to be at least the page is functionable.
+This project is far from done; it is a very rough draft. I will continue to come back and make changes as time goes on. The biggest being adding more than the two projects I have in. While this doesn't reach my standards, I know in the future it will. I also plan to add more sections such as a link to my resume or a list of various skills/ certificates. While the styling isn't what I want it to be at least the page is functionable.
 
 ### Links
 
