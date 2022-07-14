@@ -33,6 +33,10 @@ a:visited {
   color: rgb(0, 0, 0);
 }
 
+.pic:hover {
+  transform: scale(1.3);
+}
+
 /*HEAD*/
 .intro {
   display: inline-block;
