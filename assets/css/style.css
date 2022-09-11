@@ -4,12 +4,15 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-html { /* Handles the background and makes the scroll not jump to the end */
+/* Handles the background and makes the scroll not jump to the end */
+html { 
   scroll-behavior: smooth;
   background-image: url("../images/abstract.webp");
 }
 
-h2 { /* The 3 titles for the sections, its excessive but needed */
+
+ /* The 3 titles for the sections, its excessive but needed */
+ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +47,8 @@ a:visited {
   width: 100%;
 }
 
-h1 { /* My name soon to be more  */
+/* My name soon to be more  */
+h1 { 
   display: inline-block;
   font-size: 30px;
   padding: 80px 0 0 20px;
@@ -57,8 +61,9 @@ nav {
   padding: 55px 10px 0;
 }
 
+/*Keeps bullet points away, might change to inline later*/
 nav li {
-  list-style-type: none; /*Keeps bullet points away, might change to inline later*/
+  list-style-type: none; 
   padding: 10px 30px 0px 0px;
   font-size: 20px;
 }
@@ -124,7 +129,8 @@ footer {
   height: 300px;
 }
 
-footer ul {  /* The 3 different options for contact */
+ /* The 3 different options for contact */
+footer ul { 
   display: flex;
   list-style-type: none;
   font-size: 20px;
@@ -132,6 +138,7 @@ footer ul {  /* The 3 different options for contact */
   width: 100%;
 }
 
-span { /* "email", "number", "github". more coming */
+/* "email", "number", "github". more coming */
+span { 
   font-weight: 900;
 }

@@ -1,95 +1,111 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
   <head>
     <meta charset="UTF-8" />
     <title>Codey's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
     <link rel="stylesheet" href="assets\css\style.css" />
   </head>
 
   <body>
     <!-- Header and Nav -->
-    <header class="intro">
-      <h1>Codey Gallup</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#about">About Me</a>
-          </li>
-          <li>
-            <a href="#piece">Projects</a>
-          </li>
-          <li>
-            <a href="#cont">Contact Me</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <nav class="navbar">
+      <h1 class="is-size-1 ml-4">Codey Gallup</h1>
+      <div class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="#about">About Me</a>
+          <a href="#piece" class="navbar-item">Projects</a>
+          <a href="#cont" class="navbar-item">Contact Me</a>
+        </div>
+      </div>
+    </nav>
 
     <main>
       <!-- About Me -->
-      <section class="about-me" id="about">
-        <h2>About Me</h2>
-        <img
-          src="assets\images\WIN_20220530_17_15_18_Pro.jpg"
-          alt="Codey's Picture"
-          class="self"
-        />
-        <p>
+      <section class="section" id="about">
+        <h2 class="title has-text-centered has-text-white is-family-monospace">About Me</h2>
+        <figure class="image is-128x128">
+          <img
+            src="assets\images\WIN_20220530_17_15_18_Pro.jpg"
+            alt="Codey's Picture"
+            class="image is-128x128"
+          />
+        </figure>
+        <p class="block is-size-4 has-text-black-ter">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
           sunt doloremque, quos, quis ipsam omnis iure mollitia error sed cum
           eum ullam aliquid architecto nam obcaecati incidunt, neque voluptatum
           non! Dignissimos, facilis at. Architecto, dicta?
         </p>
-        <p>
+        <p class="block is-size-4 has-text-black-ter">
           I'm thrilled to get my foot in the door and start a real career. The
           end goal is to be a full stack developer. However, I've been really
           enjoying front-end work. Who knows if that'll change once I start to
           get my hands on some back-end projects.
         </p>
       </section>
-      
+
       <!-- Projects -->
-      <section class="project" id="piece">
-        <h2>Projects</h2>
-        <div class="pic">
-          <header>Sign Up</header>
-          <a href="https://codeyg12.github.io/sign-up/" target="_blank">
-            <img src="assets\images\Click.webp" alt="SignUp" />
-          </a>
-        </div>
-        <div class="pic">
-          <header>TBD</header>
-          <a href="#">
-            <img src="assets\images\Earth.jpg" alt="Earth" />
-          </a>
-        </div>
-        <div class="pic">
-          <header>Scribe</header>
-          <a href="https://pppreap.github.io/project1/" target="_blank">
-            <img src="assets\images\Imburgia_notebook.jpg" alt="Notebook" />
-          </a>
-        </div>
-        <div class="pic">
-          <header>Calculator</header>
-          <a href="https://codeyg12.github.io/calculator/" target="_blank">
-            <img
-              src="assets\images\Casio_calculator_JS-20WK_in_201901_002.jpg"
-              alt="Calculator"
-            />
-          </a>
+      <section class="section" id="piece">
+        <h2 class="title has-text-centered has-text-white is-family-monospace">Projects</h2>
+        <div class="columns">
+          <div class="column">
+            <header class="is-size-5">Sign Up</header>
+            <a href="https://codeyg12.github.io/sign-up/" target="_blank">
+              <img
+                src="assets\images\Click.webp"
+                alt="SignUp"
+                class="image is-128x128"
+              />
+            </a>
+          </div>
+          <div class="column">
+            <header class="is-size-5">Tech Blog 1.5</header>
+            <a href="https://guarded-beach-85319.herokuapp.com/" target="_blank">
+              <img
+                src="assets\images\Earth.jpg"
+                alt="Earth"
+                class="image is-128x128"
+              />
+            </a>
+          </div>
+          <div class="column">
+            <header class="is-size-5">Scribe</header>
+            <a href="https://pppreap.github.io/project1/" target="_blank">
+              <img
+                src="assets\images\Imburgia_notebook.jpg"
+                alt="Notebook"
+                class="image is-128x128"
+              />
+            </a>
+          </div>
+          <div class="column">
+            <header class="is-size-5">Calculator</header>
+            <a href="https://codeyg12.github.io/calculator/" target="_blank">
+              <img
+                src="assets\images\Casio_calculator_JS-20WK_in_201901_002.jpg"
+                alt="Calculator"
+                class="image is-128x128"
+              />
+            </a>
+          </div>
         </div>
       </section>
 
       <!-- Contact Me -->
-      <footer id="cont">
-        <h2>Contact Me</h2>
+      <footer class="footer" id="cont">
+        <h2 class="title has-text-centered has-text-white is-family-monospace">Contact Me</h2>
         <ul>
           <li><span>Email:</span> &nbsp; codey.gallup@gmail.com</li>
           <li><span>Phone:</span> &nbsp; (719)459-9751</li>
           <li>
             <span>Github: </span> &nbsp;
-            <a href="https://github.com/Codeyg12" target="_blank">github.com/Codeyg12</a>
+            <a href="https://github.com/Codeyg12" target="_blank"
+              >github.com/Codeyg12</a
+            >
           </li>
         </ul>
       </footer>
