@@ -1,114 +1,84 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Codey's Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
-    />
-    <link rel="stylesheet" href="assets\css\style.css" />
-  </head>
+<html lang="en">
 
-  <body>
-    <!-- Header and Nav -->
-    <nav class="navbar">
-      <h1 class="is-size-1 ml-4">Codey Gallup</h1>
-      <div class="navbar-menu">
-        <div class="navbar-end">
-          <a class="navbar-item" href="#about">About Me</a>
-          <a href="#piece" class="navbar-item">Projects</a>
-          <a href="#cont" class="navbar-item">Contact Me</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <script src="https://kit.fontawesome.com/d3cdb9f10e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="section is-large hero is-link">
+    <h1 class="title has-text-centered is-size-1">Codey Gallup</h1>
+    <p class="subtitle has-text-centered">Full Stack Software Developer</p>
+    <nav class="navbar is-justify-content-center subtitle">
+      <a href="#projects" class="navbar-item">&lt;Projects&gt;</a>
+      <a href="#contact" class="navbar-item">&lt;Contact Me&gt;</a>
+    </nav>
+  </section>
+  <section class="section is-medium has-background-info" id="projects">
+    <h2 class="title has-text-centered is-size-2 has-text-white">
+      &lt;/Projects&gt;
+    </h2>
+    <div class="tile is-ancestor is-flex-wrap-wrap">
+      <div class="tile is-parent is-vertical">
+        <div class="tile is-child has-text-centered">
+          <header class="title has-text-centered has-text-white">
+            Group Project 1: Scribe
+          </header>
+          <a href="https://pppreap.github.io/project1/" target="_blank"><img src="assets\images\Imburgia_notebook.jpg"
+              alt="Notebook" width="300" /></a>
+        </div>
+        <div class="tile is-child has-text-centered">
+          <header class="title has-text-centered has-text-white">
+            Employee Tracker
+          </header>
+          <a href="https://github.com/Codeyg12/MySQL-employee-tracker" target="_blank"><img
+              src="assets/images/tracker.png" alt="sample of tracker" width="600" /></a>
         </div>
       </div>
-    </nav>
-
-    <main>
-      <!-- About Me -->
-      <section class="section" id="about">
-        <h2 class="title has-text-centered has-text-white is-family-monospace">About Me</h2>
-        <figure class="image is-128x128">
-          <img
-            src="assets\images\WIN_20220530_17_15_18_Pro.jpg"
-            alt="Codey's Picture"
-            class="image is-128x128"
-          />
-        </figure>
-        <p class="block is-size-4 has-text-black-ter">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          sunt doloremque, quos, quis ipsam omnis iure mollitia error sed cum
-          eum ullam aliquid architecto nam obcaecati incidunt, neque voluptatum
-          non! Dignissimos, facilis at. Architecto, dicta?
-        </p>
-        <p class="block is-size-4 has-text-black-ter">
-          I'm thrilled to get my foot in the door and start a real career. The
-          end goal is to be a full stack developer. However, I've been really
-          enjoying front-end work. Who knows if that'll change once I start to
-          get my hands on some back-end projects.
-        </p>
-      </section>
-
-      <!-- Projects -->
-      <section class="section" id="piece">
-        <h2 class="title has-text-centered has-text-white is-family-monospace">Projects</h2>
-        <div class="columns">
-          <div class="column">
-            <header class="is-size-5">Sign Up</header>
-            <a href="https://codeyg12.github.io/sign-up/" target="_blank">
-              <img
-                src="assets\images\Click.webp"
-                alt="SignUp"
-                class="image is-128x128"
-              />
-            </a>
-          </div>
-          <div class="column">
-            <header class="is-size-5">Tech Blog 1.5</header>
-            <a href="https://guarded-beach-85319.herokuapp.com/" target="_blank">
-              <img
-                src="assets\images\Earth.jpg"
-                alt="Earth"
-                class="image is-128x128"
-              />
-            </a>
-          </div>
-          <div class="column">
-            <header class="is-size-5">Scribe</header>
-            <a href="https://pppreap.github.io/project1/" target="_blank">
-              <img
-                src="assets\images\Imburgia_notebook.jpg"
-                alt="Notebook"
-                class="image is-128x128"
-              />
-            </a>
-          </div>
-          <div class="column">
-            <header class="is-size-5">Calculator</header>
-            <a href="https://codeyg12.github.io/calculator/" target="_blank">
-              <img
-                src="assets\images\Casio_calculator_JS-20WK_in_201901_002.jpg"
-                alt="Calculator"
-                class="image is-128x128"
-              />
-            </a>
-          </div>
+      <div class="tile is-parent is-vertical block">
+        <div class="tile is-child has-text-centered block">
+          <header class="title has-text-centered has-text-white">
+            Group Project 2: Tech Blog 1.5
+          </header>
+          <a href="https://guarded-beach-85319.herokuapp.com/" target="_blank"><img src="assets/images/Earth.jpg"
+              alt="Earth" width="400" /></a>
         </div>
-      </section>
+        <div class="tile is-child has-text-centered block">
+          <header class="title has-text-centered has-text-white">
+            Tech Talk
+          </header>
+          <a href="https://safe-reaches-93630.herokuapp.com/" target="_blank"><img src="assets/images/techTalk.png"
+              alt="sample of tech talk" width="750" /></a>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section class="section is-large has-background-primary has-text-white" id="contact">
+    <h3 class="title has-text-centered is-size-2 has-text-white">
+      &lt;/Contact Me&gt;
+    </h3>
+    <div class="tabs is-large is-centered is-fullwidth">
+      <ul class="is-centered container is-flex">
+        <li>
+          <a href="tel:7194599751" class="has-text-white"><i class="fa-solid fa-phone"></i>&nbsp;Phone</a>
+        </li>
+        <li><a href="mailto:codey.gallup@gmail.com" target="_blank" class="has-text-white"><i
+              class="fa-regular fa-envelope"></i>&nbsp;Email</a>
+        </li>
+        <li><a href="https://github.com/Codeyg12" target="_blank" class="has-text-white"><i
+              class="fa-brands fa-github"></i>&nbsp;Github</a>
+        </li>
+        <li><a href="www.linkedin.com/in/codey-gallup" target="_blank" class="has-text-white"><i
+              class="fa-brands fa-linkedin"></i>&nbsp;LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</body>
 
-      <!-- Contact Me -->
-      <footer class="footer" id="cont">
-        <h2 class="title has-text-centered has-text-white is-family-monospace">Contact Me</h2>
-        <ul>
-          <li><span>Email:</span> &nbsp; codey.gallup@gmail.com</li>
-          <li><span>Phone:</span> &nbsp; (719)459-9751</li>
-          <li>
-            <span>Github: </span> &nbsp;
-            <a href="https://github.com/Codeyg12" target="_blank"
-              >github.com/Codeyg12</a
-            >
-          </li>
-        </ul>
-      </footer>
-    </main>
-  </body>
 </html>
